@@ -1,0 +1,55 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <!-- App name for Action Bar and launcher icon-->
+    <string name="app_name">Stock Hawk</string>
+
+    <!-- Settings default -->
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <!--  -->
+    <string name="pref_stocks_key">stocks</string>
+
+    <!-- Label for empty chart -->
+    <string name="chart_no_data">No data</string>
+
+
+    <!-- Preference settings -->
+    <string name="pref_display_mode_title">Display Mode</string>
+    <string name="pref_display_mode_key">displayMode</string>
+    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key">absolute</string>
+    <string name="pref_display_mode_percentage_key">percentage</string>
+
+    <!-- Default Stock list items -->
+    <string name="default_stocks_yahoo">YHOO</string>
+    <string name="default_stocks_apple">AAPL</string>
+    <string name="default_stocks_microsoft">MSFT</string>
+    <string name="default_stocks_facebook">FB</string>
+
+    <string name="action_change_units">@string/pref_display_mode_key</string>
+
+
+    <!-- Dialog labels -->
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <!-- Error messages -->
+    <string name="error_stock_not_found">Symbol <xliff:g id="stock">%s</xliff:g> is invalid!</string>
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+    <string name="empty_stocks_list">No Stocks Information Available</string>
+
+    <!-- User messages -->
+    <string name="toast_stock_added_no_connectivity">Symbol <xliff:g id="stock">%s</xliff:g> added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+
+    <!-- content description for screen reader -->
+    <string name="content_add_stock">add stock</string>
+
+    <!-- History labels -->
+    <string name="history_title">History</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>
